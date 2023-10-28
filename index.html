@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If Else</title>
+    <style>
+        *{
+        text-align: center;
+        padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cricket Game</h1>
+
+    <button onclick=" 
+    console.log (`You have chosen Bat`);
+    let randomNumber = Math.random() *3 ;
+    if (randomNumber > 0 && randomNumber <= 1) {
+        pcchoice = 'Bat';
+    } 
+    else if (randomNumber > 1 && randomNumber <= 2 ) {
+        pcchoice = 'Ball';
+    }
+    else {
+        pcchoice = 'Wicket';
+    }
+    console.log(`Computer has chosen ${pcchoice}`);
+
+    if (pcchoice === 'Bat') {
+        console.log(alert ('Draw'));
+    }
+    if (pcchoice === 'Ball') {
+        console.log(alert ('You WON'));
+    }
+    if (pcchoice === 'Wicket') {
+        console.log(alert ('You Lose'));
+    }
+
+    "> Bat </button> 
+
+
+    <button onclick=" 
+    console.log (`You have chosen Ball`);
+    let randomNumber = Math.random() *3 ;
+    if (randomNumber > 0 && randomNumber <= 1) {
+        pcchoice = 'Ball';
+    } 
+    else if (randomNumber > 1 && randomNumber <= 2 ) {
+        pcchoice = 'Ball';
+    }
+    else {
+        pcchoice = 'Wicket';
+    }
+    console.log(`Computer has chosen ${pcchoice}`);
+
+    if (pcchoice === 'Bat') {
+        console.log(alert ('You Lose'));
+    }
+    if (pcchoice === 'Ball') {
+        console.log(alert ('Draw'));
+    }
+    if (pcchoice === 'Wicket') {
+        console.log(alert ('You Won'));
+    }
+
+    "> Ball </button>
+
+
+    <button onclick=" 
+    console.log (`You have chosen Wicket`);
+    let randomNumber = Math.random() *3 ;
+    if (randomNumber > 0 && randomNumber <= 1) {
+        pcchoice = 'Ball';
+    } 
+    else if (randomNumber > 1 && randomNumber <= 2 ) {
+        pcchoice = 'Ball';
+    }
+    else {
+        pcchoice = 'Wicket';
+    }
+    console.log(`Computer has chosen ${pcchoice}`);
+
+    if (pcchoice === 'Bat') {
+        console.log(alert ('You Won'));
+    }
+    if (pcchoice === 'Ball') {
+        console.log(alert ('You Lose'));
+    }
+    if (pcchoice === 'Wicket') {
+        console.log(alert ('Draw'));
+    }
+
+    "> Wicket </button>
+
+
+
+
+
+
+
+    <!-- <script>
+        // let age = 22;
+        // if (age > 65) {
+        //     console.log ('Stay home');
+        // }
+        // else if (age > 21 && age < 45) {
+        //     console.log ('Work for your future')
+        // }
+        // console.log (`I'm Developer Raisul`)
+
+        let pcchoice = '';
+
+
+    </script> -->
+</body>
+</html>
